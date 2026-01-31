@@ -50,8 +50,7 @@
 
     <!-- SINGLE CTA BUTTON -->
     <!-- SINGLE CTA BUTTON -->
-<button onclick="handleCallOrCopy()"
-  class="mx-auto bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-lg text-lg font-semibold">
+<button class="mx-auto bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-lg text-lg font-semibold">
   Call Now: +1 8445783088
 </button>
   </div>
@@ -116,8 +115,7 @@
   </p>
 
   <!-- SINGLE CTA BUTTON -->
-<button onclick="handleCallOrCopy()"
-  class="mx-auto bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-lg text-lg font-semibold">
+<button class="mx-auto bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-lg text-lg font-semibold">
   Call Now: +1 8445783088
 </button>
 </section>
@@ -214,17 +212,6 @@ We connect users with independent third-party pest control providers.
 </footer>
 
 <!-- ================= SCRIPT ================= -->
-<script>
-  function handleCallOrCopy() {
-    navigator.clipboard.writeText("(844) 578-3088");
-
-    if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
-      window.location.href = "tel:(844) 578-3088";
-    } else {
-      alert("Number copied: (844) 578-3088");
-    }
-  }
-</script>
 
 </body>
 </html>
